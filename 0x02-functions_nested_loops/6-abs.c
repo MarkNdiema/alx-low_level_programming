@@ -5,10 +5,9 @@
 * @n: the integer to be computed
 * Return: the absolute value of n
 */
-int_abs(int)
+int_abs(int c)
 
 {
-	int= c;
 	if (c < 0)
 	{
 	int abs_val;
