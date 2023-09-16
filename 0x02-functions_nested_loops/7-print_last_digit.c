@@ -1,11 +1,10 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
  * print_last_digit - prints the last digit of a number
  * @n: the integer to be printer
-* Return: the absolute value of n
-*/
+* Return: value of the last digit of number
+* */
 
 int print_last_digit(int n)  
 {
@@ -14,8 +13,8 @@ int print_last_digit(int n)
 	last = n % 10;
 	if (last < 0)
 	{
-		last = last * -1;
+	last = last * -1;
 	}
-	printf(last + '0');
+	_putchar(last + '0');
 	return (last);
 }
