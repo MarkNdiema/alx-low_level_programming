@@ -6,11 +6,9 @@
 */
 void times_table(void) 
 {
-    int r = 10;    // Number of rows (0 to 9)
-    int c = 10; // Number of columns (0 to 9)
-    int = i;
-    int = j;
-
+    int r = 10;
+    int c = 10;
+`
     for (int i = 0; i < r; i++) {
         for (int j = 0; j < c; j++) {
             _putchar("%2d ", i * c + j);
