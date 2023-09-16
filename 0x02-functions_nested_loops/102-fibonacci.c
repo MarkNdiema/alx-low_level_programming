@@ -26,4 +26,4 @@ printf(", %ld", k);
 }
 printf("\n");
 return (0);
-i}
+}
