@@ -5,7 +5,7 @@
 * @n: the integer to be printer
 * Return: value of the last digit of number
 */
-int print_last_digit(int)
+int print_last_digit(int n)
 {
 int last;
 
