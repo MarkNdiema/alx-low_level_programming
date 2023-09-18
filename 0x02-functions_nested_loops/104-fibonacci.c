@@ -8,7 +8,11 @@
 
 int main(void)
 
-{
+104-fibonacci.c: In function ‘main’:
+104-fibonacci.c:49:1: error: control reaches end of non-void function [-Werror=return-type]
+   49 | }
+      | ^
+cc1: all warnings being treated as errors{
 int count;
 unsigned long fib1 = 0, fib2 = 1, sum;
 unsigned long fib1_half1, fib1_half2, fib2_half1, fib2_half2;
@@ -43,7 +47,7 @@ fib1_half2 = fib2_half2;
 fib2_half1 = half1;
 fib2_half2 = half2;
 }
+}
 printf("\n");
 return 0;
-}
 }
