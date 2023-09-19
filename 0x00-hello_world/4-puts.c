@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - E ntey point
+ * main - Entey point
  *
  * Return Always 0 (Success)
  */
