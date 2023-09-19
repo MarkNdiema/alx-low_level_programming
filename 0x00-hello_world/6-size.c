@@ -2,7 +2,7 @@
  * main - Entry point of the program
  *
  * Description: This function prints the sizes in bytes of various data types
- *              and returns 0 to indicate successful execution.
+ * and returns 0 to indicate successful execution.
  *
  * Return: Always 0 (Success)
  */
