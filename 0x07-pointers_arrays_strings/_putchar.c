@@ -1,10 +1,13 @@
-#include <stdio.h>
-#include "add.h"
+#include <unistd.h>
 
-int main() {
-    int result = add(5, 3);
-
-    printf("Result: %d\n", result);
-
-    return 0;
+/**
+ * _putchar - Writes a character to standard output
+ * @c: The character to write
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+int _putchar(char c)
+{
+    return write(1, &c, 1);
 }
