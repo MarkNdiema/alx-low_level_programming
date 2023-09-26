@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include "add.h"  // Include the custom header file
+#include "add.h"
 
 int main() {
-    int result = add(5, 3); // Use the "add" function
+    int result = add(5, 3);
 
     printf("Result: %d\n", result);
 
